@@ -17,6 +17,7 @@ public class AutoTest {
 
         $("[data-test-id]").shouldHave(exactText("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время."));
     }
+}
 
 /*    @Test
     void validationCheckName() {
