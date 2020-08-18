@@ -9,18 +9,17 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/AutoTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/AutoTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-AutoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-AutoTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,66 +107,53 @@
       <screen x="-573" y="-1440" width="2560" height="1440" />
     </state>
     <state x="-187" y="-911" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/-573.-1440.2560.1440@-573.-1440.2560.1440" timestamp="1597617627842" />
-    <state width="2518" height="574" key="GridCell.Tab.0.bottom" timestamp="1597710707871">
-      <screen x="-573" y="-1440" width="2560" height="1440" />
+    <state width="2518" height="574" key="GridCell.Tab.0.bottom" timestamp="1597733200520">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="2518" height="574" key="GridCell.Tab.0.bottom/0.0.1440.900/-573.-1440.2560.1440@-573.-1440.2560.1440" timestamp="1597710707871" />
+    <state width="2518" height="574" key="GridCell.Tab.0.bottom/0.0.1440.900/-573.-1440.2560.1440@0.0.1440.900" timestamp="1597733200520" />
     <state width="2518" height="424" key="GridCell.Tab.0.bottom/0.23.1440.877/-573.-1440.2560.1440@-573.-1440.2560.1440" timestamp="1597619457850" />
-    <state width="2518" height="574" key="GridCell.Tab.0.center" timestamp="1597710707861">
-      <screen x="-573" y="-1440" width="2560" height="1440" />
+    <state width="2518" height="574" key="GridCell.Tab.0.center" timestamp="1597733200510">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="2518" height="574" key="GridCell.Tab.0.center/0.0.1440.900/-573.-1440.2560.1440@-573.-1440.2560.1440" timestamp="1597710707861" />
+    <state width="2518" height="574" key="GridCell.Tab.0.center/0.0.1440.900/-573.-1440.2560.1440@0.0.1440.900" timestamp="1597733200510" />
     <state width="2518" height="424" key="GridCell.Tab.0.center/0.23.1440.877/-573.-1440.2560.1440@-573.-1440.2560.1440" timestamp="1597619457847" />
-    <state width="2518" height="574" key="GridCell.Tab.0.left" timestamp="1597710707859">
-      <screen x="-573" y="-1440" width="2560" height="1440" />
+    <state width="2518" height="574" key="GridCell.Tab.0.left" timestamp="1597733200508">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="2518" height="574" key="GridCell.Tab.0.left/0.0.1440.900/-573.-1440.2560.1440@-573.-1440.2560.1440" timestamp="1597710707859" />
+    <state width="2518" height="574" key="GridCell.Tab.0.left/0.0.1440.900/-573.-1440.2560.1440@0.0.1440.900" timestamp="1597733200508" />
     <state width="2518" height="424" key="GridCell.Tab.0.left/0.23.1440.877/-573.-1440.2560.1440@-573.-1440.2560.1440" timestamp="1597619457845" />
-    <state width="2518" height="574" key="GridCell.Tab.0.right" timestamp="1597710707863">
-      <screen x="-573" y="-1440" width="2560" height="1440" />
+    <state width="2518" height="574" key="GridCell.Tab.0.right" timestamp="1597733200511">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="2518" height="574" key="GridCell.Tab.0.right/0.0.1440.900/-573.-1440.2560.1440@-573.-1440.2560.1440" timestamp="1597710707863" />
+    <state width="2518" height="574" key="GridCell.Tab.0.right/0.0.1440.900/-573.-1440.2560.1440@0.0.1440.900" timestamp="1597733200511" />
     <state width="2518" height="424" key="GridCell.Tab.0.right/0.23.1440.877/-573.-1440.2560.1440@-573.-1440.2560.1440" timestamp="1597619457849" />
-    <state width="2518" height="574" key="GridCell.Tab.1.bottom" timestamp="1597710707889">
-      <screen x="-573" y="-1440" width="2560" height="1440" />
+    <state width="2518" height="574" key="GridCell.Tab.1.bottom" timestamp="1597733200538">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="2518" height="574" key="GridCell.Tab.1.bottom/0.0.1440.900/-573.-1440.2560.1440@-573.-1440.2560.1440" timestamp="1597710707889" />
-    <state width="2518" height="574" key="GridCell.Tab.1.center" timestamp="1597710707878">
-      <screen x="-573" y="-1440" width="2560" height="1440" />
+    <state width="2518" height="574" key="GridCell.Tab.1.bottom/0.0.1440.900/-573.-1440.2560.1440@0.0.1440.900" timestamp="1597733200538" />
+    <state width="2518" height="574" key="GridCell.Tab.1.center" timestamp="1597733200527">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="2518" height="574" key="GridCell.Tab.1.center/0.0.1440.900/-573.-1440.2560.1440@-573.-1440.2560.1440" timestamp="1597710707878" />
-    <state width="2518" height="574" key="GridCell.Tab.1.left" timestamp="1597710707873">
-      <screen x="-573" y="-1440" width="2560" height="1440" />
+    <state width="2518" height="574" key="GridCell.Tab.1.center/0.0.1440.900/-573.-1440.2560.1440@0.0.1440.900" timestamp="1597733200527" />
+    <state width="2518" height="574" key="GridCell.Tab.1.left" timestamp="1597733200524">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="2518" height="574" key="GridCell.Tab.1.left/0.0.1440.900/-573.-1440.2560.1440@-573.-1440.2560.1440" timestamp="1597710707873" />
-    <state width="2518" height="574" key="GridCell.Tab.1.right" timestamp="1597710707883">
-      <screen x="-573" y="-1440" width="2560" height="1440" />
+    <state width="2518" height="574" key="GridCell.Tab.1.left/0.0.1440.900/-573.-1440.2560.1440@0.0.1440.900" timestamp="1597733200524" />
+    <state width="2518" height="574" key="GridCell.Tab.1.right" timestamp="1597733200536">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="2518" height="574" key="GridCell.Tab.1.right/0.0.1440.900/-573.-1440.2560.1440@-573.-1440.2560.1440" timestamp="1597710707883" />
+    <state width="2518" height="574" key="GridCell.Tab.1.right/0.0.1440.900/-573.-1440.2560.1440@0.0.1440.900" timestamp="1597733200536" />
     <state width="1280" height="720" key="XDebugger.FullValuePopup" timestamp="1597710530147">
       <screen x="-573" y="-1440" width="2560" height="1440" />
     </state>
     <state width="1280" height="720" key="XDebugger.FullValuePopup/0.0.1440.900/-573.-1440.2560.1440@-573.-1440.2560.1440" timestamp="1597710530147" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/AutoTest.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/AutoTest.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/AutoTest.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
