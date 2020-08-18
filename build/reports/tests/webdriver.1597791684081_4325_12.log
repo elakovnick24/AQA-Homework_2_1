@@ -1,0 +1,1007 @@
+[1597791684.426][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 28163
+[1597791684.426][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1597791684.948][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/nikitaelakov/IdeaProjects/homework_2_1/build/downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/nikitaelakov/IdeaProjects/homework_2_1/build/downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1597791684.950][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/nikitaelakov/IdeaProjects/homework_2_1/build/downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1597791684.951][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1597791684.952][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/zg/m568w6_90vb70mg1ttf_n6gw0000gn/T/.com.google.Chrome.HVDRq7 data:,
+[1597791687.005][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1597791687.011][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1597791687.047][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.125",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "/var/folders/zg/m568w6_90vb70mg1ttf_n6gw0000gn/T/.com.google.Chrome.HVDRq7"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:54563"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "3d4c88dd9275eb10f34c28643ed8dbcd"
+}
+[1597791687.231][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1597791687.231][INFO]: Waiting for pending navigations...
+[1597791687.234][INFO]: Done waiting for pending navigations. Status: ok
+[1597791687.342][INFO]: Waiting for pending navigations...
+[1597791687.343][INFO]: Done waiting for pending navigations. Status: ok
+[1597791687.343][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 22,
+   "y": 45
+}
+[1597791687.364][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND Navigate {
+   "url": "http://localhost:7777"
+}
+[1597791687.364][INFO]: Waiting for pending navigations...
+[1597791687.365][INFO]: Done waiting for pending navigations. Status: ok
+[1597791687.572][INFO]: Waiting for pending navigations...
+[1597791688.439][INFO]: Done waiting for pending navigations. Status: ok
+[1597791688.439][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE Navigate
+[1597791688.605][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-test-id=name] input"
+}
+[1597791688.605][INFO]: Waiting for pending navigations...
+[1597791688.606][INFO]: Done waiting for pending navigations. Status: ok
+[1597791688.618][INFO]: Waiting for pending navigations...
+[1597791688.619][INFO]: Done waiting for pending navigations. Status: ok
+[1597791688.619][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "63a3a474-ffe6-4846-8056-d490656ee81f"
+}
+[1597791688.698][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "63a3a474-ffe6-4846-8056-d490656ee81f"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597791688.698][INFO]: Waiting for pending navigations...
+[1597791688.700][INFO]: Done waiting for pending navigations. Status: ok
+[1597791688.714][INFO]: Waiting for pending navigations...
+[1597791688.716][INFO]: Done waiting for pending navigations. Status: ok
+[1597791688.716][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE ExecuteScript true
+[1597791688.729][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND ClearElement {
+   "id": "63a3a474-ffe6-4846-8056-d490656ee81f"
+}
+[1597791688.729][INFO]: Waiting for pending navigations...
+[1597791688.731][INFO]: Done waiting for pending navigations. Status: ok
+[1597791688.760][INFO]: 
+	=== NOTE: ===
+	The Clear command in ChromeDriver 2.43 and above
+	has been updated to conform to the current standard,
+	including raising blur event after clearing.
+
+[1597791688.773][INFO]: Waiting for pending navigations...
+[1597791688.774][INFO]: Done waiting for pending navigations. Status: ok
+[1597791688.774][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE ClearElement
+[1597791688.788][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND TypeElement {
+   "id": "63a3a474-ffe6-4846-8056-d490656ee81f",
+   "text": "Никита Несборочный",
+   "value": [ "Н", "и", "к", "и", "т", "а", " ", "Н", "е", "с", "б", "о", "р", "о", "ч", "н", "ы", "й" ]
+}
+[1597791688.788][INFO]: Waiting for pending navigations...
+[1597791688.791][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.054][INFO]: Waiting for pending navigations...
+[1597791689.070][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.070][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE TypeElement
+[1597791689.077][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-test-id=phone] input"
+}
+[1597791689.077][INFO]: Waiting for pending navigations...
+[1597791689.079][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.095][INFO]: Waiting for pending navigations...
+[1597791689.099][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.099][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "0f32c470-6326-4d14-a835-6def249e107f"
+}
+[1597791689.116][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "0f32c470-6326-4d14-a835-6def249e107f"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597791689.116][INFO]: Waiting for pending navigations...
+[1597791689.120][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.137][INFO]: Waiting for pending navigations...
+[1597791689.141][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.141][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE ExecuteScript true
+[1597791689.147][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND ClearElement {
+   "id": "0f32c470-6326-4d14-a835-6def249e107f"
+}
+[1597791689.147][INFO]: Waiting for pending navigations...
+[1597791689.152][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.191][INFO]: Waiting for pending navigations...
+[1597791689.193][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.193][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE ClearElement
+[1597791689.199][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND TypeElement {
+   "id": "0f32c470-6326-4d14-a835-6def249e107f",
+   "text": "+797788899990000",
+   "value": [ "+", "7", "9", "7", "7", "8", "8", "8", "9", "9", "9", "9", "0", "0", "0", "0" ]
+}
+[1597791689.199][INFO]: Waiting for pending navigations...
+[1597791689.200][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.328][INFO]: Waiting for pending navigations...
+[1597791689.335][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.335][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE TypeElement
+[1597791689.343][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-test-id=agreement]"
+}
+[1597791689.343][INFO]: Waiting for pending navigations...
+[1597791689.344][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.355][INFO]: Waiting for pending navigations...
+[1597791689.355][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.356][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "4fd05023-d35c-4e04-afae-04e63bd7d7a2"
+}
+[1597791689.374][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "4fd05023-d35c-4e04-afae-04e63bd7d7a2"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597791689.374][INFO]: Waiting for pending navigations...
+[1597791689.375][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.385][INFO]: Waiting for pending navigations...
+[1597791689.388][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.388][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE ExecuteScript true
+[1597791689.394][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND ClickElement {
+   "id": "4fd05023-d35c-4e04-afae-04e63bd7d7a2"
+}
+[1597791689.394][INFO]: Waiting for pending navigations...
+[1597791689.395][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.466][INFO]: Waiting for pending navigations...
+[1597791689.483][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.483][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE ClickElement
+[1597791689.489][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[type=button]"
+}
+[1597791689.489][INFO]: Waiting for pending navigations...
+[1597791689.491][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.512][INFO]: Waiting for pending navigations...
+[1597791689.513][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.513][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "225801f5-ad9e-467f-9546-fbd2fcdafda5"
+}
+[1597791689.550][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "225801f5-ad9e-467f-9546-fbd2fcdafda5"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597791689.551][INFO]: Waiting for pending navigations...
+[1597791689.560][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.571][INFO]: Waiting for pending navigations...
+[1597791689.572][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.572][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE ExecuteScript true
+[1597791689.581][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND ClickElement {
+   "id": "225801f5-ad9e-467f-9546-fbd2fcdafda5"
+}
+[1597791689.581][INFO]: Waiting for pending navigations...
+[1597791689.590][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.650][INFO]: Waiting for pending navigations...
+[1597791689.654][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.654][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE ClickElement
+[1597791689.670][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791689.670][INFO]: Waiting for pending navigations...
+[1597791689.672][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.686][INFO]: Waiting for pending navigations...
+[1597791689.688][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.688][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791689.696][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindChildElement {
+   "id": "19667e68-3ce6-4be6-b180-d69d635d7bd1",
+   "using": "xpath",
+   "value": ".//*/text()[contains(normalize-space(translate(string(.), '\t\n\r ', '    ')), \"Телефон указан неверно\")]/parent::*"
+}
+[1597791689.696][INFO]: Waiting for pending navigations...
+[1597791689.702][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.722][INFO]: Waiting for pending navigations...
+[1597791689.723][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.724][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[contains(normalize-space(translate(string(.), '	
+ ', '    ')), "Телефон указан неверно")]/parent::*"}
+  (Session info: chrome=84.0.4147.125)
+[1597791689.768][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791689.768][INFO]: Waiting for pending navigations...
+[1597791689.769][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.773][INFO]: Waiting for pending navigations...
+[1597791689.774][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.774][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791689.810][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597791689.810][INFO]: Waiting for pending navigations...
+[1597791689.811][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.821][INFO]: Waiting for pending navigations...
+[1597791689.822][INFO]: Done waiting for pending navigations. Status: ok
+[1597791689.822][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE ExecuteScript true
+[1597791690.044][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791690.044][INFO]: Waiting for pending navigations...
+[1597791690.046][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.052][INFO]: Waiting for pending navigations...
+[1597791690.053][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.053][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791690.057][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindChildElement {
+   "id": "19667e68-3ce6-4be6-b180-d69d635d7bd1",
+   "using": "xpath",
+   "value": ".//*/text()[contains(normalize-space(translate(string(.), '\t\n\r ', '    ')), \"Телефон указан неверно\")]/parent::*"
+}
+[1597791690.057][INFO]: Waiting for pending navigations...
+[1597791690.058][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.064][INFO]: Waiting for pending navigations...
+[1597791690.065][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.065][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[contains(normalize-space(translate(string(.), '	
+ ', '    ')), "Телефон указан неверно")]/parent::*"}
+  (Session info: chrome=84.0.4147.125)
+[1597791690.071][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791690.071][INFO]: Waiting for pending navigations...
+[1597791690.071][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.075][INFO]: Waiting for pending navigations...
+[1597791690.076][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.076][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791690.085][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597791690.086][INFO]: Waiting for pending navigations...
+[1597791690.086][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.091][INFO]: Waiting for pending navigations...
+[1597791690.093][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.093][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE ExecuteScript true
+[1597791690.302][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791690.302][INFO]: Waiting for pending navigations...
+[1597791690.303][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.310][INFO]: Waiting for pending navigations...
+[1597791690.311][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.311][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791690.316][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindChildElement {
+   "id": "19667e68-3ce6-4be6-b180-d69d635d7bd1",
+   "using": "xpath",
+   "value": ".//*/text()[contains(normalize-space(translate(string(.), '\t\n\r ', '    ')), \"Телефон указан неверно\")]/parent::*"
+}
+[1597791690.316][INFO]: Waiting for pending navigations...
+[1597791690.317][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.322][INFO]: Waiting for pending navigations...
+[1597791690.323][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.323][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[contains(normalize-space(translate(string(.), '	
+ ', '    ')), "Телефон указан неверно")]/parent::*"}
+  (Session info: chrome=84.0.4147.125)
+[1597791690.328][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791690.328][INFO]: Waiting for pending navigations...
+[1597791690.330][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.334][INFO]: Waiting for pending navigations...
+[1597791690.335][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.335][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791690.343][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597791690.343][INFO]: Waiting for pending navigations...
+[1597791690.344][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.350][INFO]: Waiting for pending navigations...
+[1597791690.351][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.351][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE ExecuteScript true
+[1597791690.561][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791690.561][INFO]: Waiting for pending navigations...
+[1597791690.562][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.566][INFO]: Waiting for pending navigations...
+[1597791690.566][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.567][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791690.571][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindChildElement {
+   "id": "19667e68-3ce6-4be6-b180-d69d635d7bd1",
+   "using": "xpath",
+   "value": ".//*/text()[contains(normalize-space(translate(string(.), '\t\n\r ', '    ')), \"Телефон указан неверно\")]/parent::*"
+}
+[1597791690.571][INFO]: Waiting for pending navigations...
+[1597791690.572][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.577][INFO]: Waiting for pending navigations...
+[1597791690.578][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.578][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[contains(normalize-space(translate(string(.), '	
+ ', '    ')), "Телефон указан неверно")]/parent::*"}
+  (Session info: chrome=84.0.4147.125)
+[1597791690.583][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791690.583][INFO]: Waiting for pending navigations...
+[1597791690.584][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.588][INFO]: Waiting for pending navigations...
+[1597791690.588][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.588][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791690.598][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597791690.598][INFO]: Waiting for pending navigations...
+[1597791690.599][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.604][INFO]: Waiting for pending navigations...
+[1597791690.605][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.605][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE ExecuteScript true
+[1597791690.815][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791690.816][INFO]: Waiting for pending navigations...
+[1597791690.817][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.824][INFO]: Waiting for pending navigations...
+[1597791690.825][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.825][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791690.829][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindChildElement {
+   "id": "19667e68-3ce6-4be6-b180-d69d635d7bd1",
+   "using": "xpath",
+   "value": ".//*/text()[contains(normalize-space(translate(string(.), '\t\n\r ', '    ')), \"Телефон указан неверно\")]/parent::*"
+}
+[1597791690.829][INFO]: Waiting for pending navigations...
+[1597791690.830][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.835][INFO]: Waiting for pending navigations...
+[1597791690.836][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.836][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[contains(normalize-space(translate(string(.), '	
+ ', '    ')), "Телефон указан неверно")]/parent::*"}
+  (Session info: chrome=84.0.4147.125)
+[1597791690.841][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791690.841][INFO]: Waiting for pending navigations...
+[1597791690.842][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.846][INFO]: Waiting for pending navigations...
+[1597791690.847][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.847][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791690.855][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597791690.855][INFO]: Waiting for pending navigations...
+[1597791690.856][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.860][INFO]: Waiting for pending navigations...
+[1597791690.861][INFO]: Done waiting for pending navigations. Status: ok
+[1597791690.861][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE ExecuteScript true
+[1597791691.076][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791691.076][INFO]: Waiting for pending navigations...
+[1597791691.077][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.084][INFO]: Waiting for pending navigations...
+[1597791691.085][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.085][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791691.089][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindChildElement {
+   "id": "19667e68-3ce6-4be6-b180-d69d635d7bd1",
+   "using": "xpath",
+   "value": ".//*/text()[contains(normalize-space(translate(string(.), '\t\n\r ', '    ')), \"Телефон указан неверно\")]/parent::*"
+}
+[1597791691.089][INFO]: Waiting for pending navigations...
+[1597791691.090][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.097][INFO]: Waiting for pending navigations...
+[1597791691.098][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.098][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[contains(normalize-space(translate(string(.), '	
+ ', '    ')), "Телефон указан неверно")]/parent::*"}
+  (Session info: chrome=84.0.4147.125)
+[1597791691.102][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791691.102][INFO]: Waiting for pending navigations...
+[1597791691.103][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.108][INFO]: Waiting for pending navigations...
+[1597791691.109][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.109][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791691.119][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597791691.119][INFO]: Waiting for pending navigations...
+[1597791691.120][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.124][INFO]: Waiting for pending navigations...
+[1597791691.125][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.125][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE ExecuteScript true
+[1597791691.335][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791691.335][INFO]: Waiting for pending navigations...
+[1597791691.336][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.342][INFO]: Waiting for pending navigations...
+[1597791691.343][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.343][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791691.347][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindChildElement {
+   "id": "19667e68-3ce6-4be6-b180-d69d635d7bd1",
+   "using": "xpath",
+   "value": ".//*/text()[contains(normalize-space(translate(string(.), '\t\n\r ', '    ')), \"Телефон указан неверно\")]/parent::*"
+}
+[1597791691.347][INFO]: Waiting for pending navigations...
+[1597791691.348][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.354][INFO]: Waiting for pending navigations...
+[1597791691.355][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.355][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[contains(normalize-space(translate(string(.), '	
+ ', '    ')), "Телефон указан неверно")]/parent::*"}
+  (Session info: chrome=84.0.4147.125)
+[1597791691.360][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791691.360][INFO]: Waiting for pending navigations...
+[1597791691.361][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.366][INFO]: Waiting for pending navigations...
+[1597791691.367][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.367][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791691.374][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597791691.375][INFO]: Waiting for pending navigations...
+[1597791691.375][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.380][INFO]: Waiting for pending navigations...
+[1597791691.381][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.381][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE ExecuteScript true
+[1597791691.591][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791691.592][INFO]: Waiting for pending navigations...
+[1597791691.593][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.598][INFO]: Waiting for pending navigations...
+[1597791691.599][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.599][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791691.604][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindChildElement {
+   "id": "19667e68-3ce6-4be6-b180-d69d635d7bd1",
+   "using": "xpath",
+   "value": ".//*/text()[contains(normalize-space(translate(string(.), '\t\n\r ', '    ')), \"Телефон указан неверно\")]/parent::*"
+}
+[1597791691.604][INFO]: Waiting for pending navigations...
+[1597791691.606][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.611][INFO]: Waiting for pending navigations...
+[1597791691.612][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.612][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[contains(normalize-space(translate(string(.), '	
+ ', '    ')), "Телефон указан неверно")]/parent::*"}
+  (Session info: chrome=84.0.4147.125)
+[1597791691.618][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791691.618][INFO]: Waiting for pending navigations...
+[1597791691.618][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.624][INFO]: Waiting for pending navigations...
+[1597791691.625][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.625][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791691.634][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597791691.634][INFO]: Waiting for pending navigations...
+[1597791691.635][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.640][INFO]: Waiting for pending navigations...
+[1597791691.641][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.641][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE ExecuteScript true
+[1597791691.854][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791691.854][INFO]: Waiting for pending navigations...
+[1597791691.855][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.863][INFO]: Waiting for pending navigations...
+[1597791691.864][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.864][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791691.867][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindChildElement {
+   "id": "19667e68-3ce6-4be6-b180-d69d635d7bd1",
+   "using": "xpath",
+   "value": ".//*/text()[contains(normalize-space(translate(string(.), '\t\n\r ', '    ')), \"Телефон указан неверно\")]/parent::*"
+}
+[1597791691.867][INFO]: Waiting for pending navigations...
+[1597791691.869][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.876][INFO]: Waiting for pending navigations...
+[1597791691.877][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.877][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[contains(normalize-space(translate(string(.), '	
+ ', '    ')), "Телефон указан неверно")]/parent::*"}
+  (Session info: chrome=84.0.4147.125)
+[1597791691.883][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791691.883][INFO]: Waiting for pending navigations...
+[1597791691.884][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.888][INFO]: Waiting for pending navigations...
+[1597791691.889][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.889][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791691.899][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597791691.899][INFO]: Waiting for pending navigations...
+[1597791691.900][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.907][INFO]: Waiting for pending navigations...
+[1597791691.908][INFO]: Done waiting for pending navigations. Status: ok
+[1597791691.908][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE ExecuteScript true
+[1597791692.115][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791692.115][INFO]: Waiting for pending navigations...
+[1597791692.117][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.126][INFO]: Waiting for pending navigations...
+[1597791692.127][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.127][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791692.130][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindChildElement {
+   "id": "19667e68-3ce6-4be6-b180-d69d635d7bd1",
+   "using": "xpath",
+   "value": ".//*/text()[contains(normalize-space(translate(string(.), '\t\n\r ', '    ')), \"Телефон указан неверно\")]/parent::*"
+}
+[1597791692.130][INFO]: Waiting for pending navigations...
+[1597791692.131][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.139][INFO]: Waiting for pending navigations...
+[1597791692.140][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.140][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[contains(normalize-space(translate(string(.), '	
+ ', '    ')), "Телефон указан неверно")]/parent::*"}
+  (Session info: chrome=84.0.4147.125)
+[1597791692.146][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791692.146][INFO]: Waiting for pending navigations...
+[1597791692.147][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.151][INFO]: Waiting for pending navigations...
+[1597791692.152][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.152][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791692.160][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597791692.160][INFO]: Waiting for pending navigations...
+[1597791692.161][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.165][INFO]: Waiting for pending navigations...
+[1597791692.166][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.166][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE ExecuteScript true
+[1597791692.374][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791692.374][INFO]: Waiting for pending navigations...
+[1597791692.375][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.385][INFO]: Waiting for pending navigations...
+[1597791692.388][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.388][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791692.392][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindChildElement {
+   "id": "19667e68-3ce6-4be6-b180-d69d635d7bd1",
+   "using": "xpath",
+   "value": ".//*/text()[contains(normalize-space(translate(string(.), '\t\n\r ', '    ')), \"Телефон указан неверно\")]/parent::*"
+}
+[1597791692.392][INFO]: Waiting for pending navigations...
+[1597791692.393][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.399][INFO]: Waiting for pending navigations...
+[1597791692.399][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.400][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[contains(normalize-space(translate(string(.), '	
+ ', '    ')), "Телефон указан неверно")]/parent::*"}
+  (Session info: chrome=84.0.4147.125)
+[1597791692.404][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791692.404][INFO]: Waiting for pending navigations...
+[1597791692.405][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.409][INFO]: Waiting for pending navigations...
+[1597791692.410][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.410][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791692.418][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597791692.418][INFO]: Waiting for pending navigations...
+[1597791692.419][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.424][INFO]: Waiting for pending navigations...
+[1597791692.425][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.425][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE ExecuteScript true
+[1597791692.631][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791692.631][INFO]: Waiting for pending navigations...
+[1597791692.632][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.640][INFO]: Waiting for pending navigations...
+[1597791692.642][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.642][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791692.648][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindChildElement {
+   "id": "19667e68-3ce6-4be6-b180-d69d635d7bd1",
+   "using": "xpath",
+   "value": ".//*/text()[contains(normalize-space(translate(string(.), '\t\n\r ', '    ')), \"Телефон указан неверно\")]/parent::*"
+}
+[1597791692.648][INFO]: Waiting for pending navigations...
+[1597791692.651][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.660][INFO]: Waiting for pending navigations...
+[1597791692.661][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.661][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[contains(normalize-space(translate(string(.), '	
+ ', '    ')), "Телефон указан неверно")]/parent::*"}
+  (Session info: chrome=84.0.4147.125)
+[1597791692.667][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791692.667][INFO]: Waiting for pending navigations...
+[1597791692.668][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.672][INFO]: Waiting for pending navigations...
+[1597791692.673][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.673][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791692.684][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597791692.684][INFO]: Waiting for pending navigations...
+[1597791692.685][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.690][INFO]: Waiting for pending navigations...
+[1597791692.691][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.691][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE ExecuteScript true
+[1597791692.898][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791692.898][INFO]: Waiting for pending navigations...
+[1597791692.899][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.904][INFO]: Waiting for pending navigations...
+[1597791692.905][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.905][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791692.909][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindChildElement {
+   "id": "19667e68-3ce6-4be6-b180-d69d635d7bd1",
+   "using": "xpath",
+   "value": ".//*/text()[contains(normalize-space(translate(string(.), '\t\n\r ', '    ')), \"Телефон указан неверно\")]/parent::*"
+}
+[1597791692.909][INFO]: Waiting for pending navigations...
+[1597791692.910][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.919][INFO]: Waiting for pending navigations...
+[1597791692.921][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.921][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[contains(normalize-space(translate(string(.), '	
+ ', '    ')), "Телефон указан неверно")]/parent::*"}
+  (Session info: chrome=84.0.4147.125)
+[1597791692.930][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791692.930][INFO]: Waiting for pending navigations...
+[1597791692.932][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.937][INFO]: Waiting for pending navigations...
+[1597791692.939][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.939][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791692.954][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597791692.954][INFO]: Waiting for pending navigations...
+[1597791692.955][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.962][INFO]: Waiting for pending navigations...
+[1597791692.963][INFO]: Done waiting for pending navigations. Status: ok
+[1597791692.963][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE ExecuteScript true
+[1597791693.173][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791693.173][INFO]: Waiting for pending navigations...
+[1597791693.174][INFO]: Done waiting for pending navigations. Status: ok
+[1597791693.184][INFO]: Waiting for pending navigations...
+[1597791693.187][INFO]: Done waiting for pending navigations. Status: ok
+[1597791693.187][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791693.193][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindChildElement {
+   "id": "19667e68-3ce6-4be6-b180-d69d635d7bd1",
+   "using": "xpath",
+   "value": ".//*/text()[contains(normalize-space(translate(string(.), '\t\n\r ', '    ')), \"Телефон указан неверно\")]/parent::*"
+}
+[1597791693.193][INFO]: Waiting for pending navigations...
+[1597791693.194][INFO]: Done waiting for pending navigations. Status: ok
+[1597791693.199][INFO]: Waiting for pending navigations...
+[1597791693.200][INFO]: Done waiting for pending navigations. Status: ok
+[1597791693.200][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[contains(normalize-space(translate(string(.), '	
+ ', '    ')), "Телефон указан неверно")]/parent::*"}
+  (Session info: chrome=84.0.4147.125)
+[1597791693.205][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791693.205][INFO]: Waiting for pending navigations...
+[1597791693.206][INFO]: Done waiting for pending navigations. Status: ok
+[1597791693.210][INFO]: Waiting for pending navigations...
+[1597791693.211][INFO]: Done waiting for pending navigations. Status: ok
+[1597791693.211][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791693.224][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597791693.224][INFO]: Waiting for pending navigations...
+[1597791693.225][INFO]: Done waiting for pending navigations. Status: ok
+[1597791693.230][INFO]: Waiting for pending navigations...
+[1597791693.231][INFO]: Done waiting for pending navigations. Status: ok
+[1597791693.231][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE ExecuteScript true
+[1597791693.438][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791693.438][INFO]: Waiting for pending navigations...
+[1597791693.440][INFO]: Done waiting for pending navigations. Status: ok
+[1597791693.451][INFO]: Waiting for pending navigations...
+[1597791693.452][INFO]: Done waiting for pending navigations. Status: ok
+[1597791693.452][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791693.459][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindChildElement {
+   "id": "19667e68-3ce6-4be6-b180-d69d635d7bd1",
+   "using": "xpath",
+   "value": ".//*/text()[contains(normalize-space(translate(string(.), '\t\n\r ', '    ')), \"Телефон указан неверно\")]/parent::*"
+}
+[1597791693.459][INFO]: Waiting for pending navigations...
+[1597791693.460][INFO]: Done waiting for pending navigations. Status: ok
+[1597791693.465][INFO]: Waiting for pending navigations...
+[1597791693.466][INFO]: Done waiting for pending navigations. Status: ok
+[1597791693.466][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[contains(normalize-space(translate(string(.), '	
+ ', '    ')), "Телефон указан неверно")]/parent::*"}
+  (Session info: chrome=84.0.4147.125)
+[1597791693.470][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".input__sub"
+}
+[1597791693.470][INFO]: Waiting for pending navigations...
+[1597791693.471][INFO]: Done waiting for pending navigations. Status: ok
+[1597791693.475][INFO]: Waiting for pending navigations...
+[1597791693.476][INFO]: Done waiting for pending navigations. Status: ok
+[1597791693.476][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+}
+[1597791693.483][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "19667e68-3ce6-4be6-b180-d69d635d7bd1"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597791693.483][INFO]: Waiting for pending navigations...
+[1597791693.484][INFO]: Done waiting for pending navigations. Status: ok
+[1597791693.490][INFO]: Waiting for pending navigations...
+[1597791693.491][INFO]: Done waiting for pending navigations. Status: ok
+[1597791693.491][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE ExecuteScript true
+[1597791693.709][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1597791693.709][INFO]: Waiting for pending navigations...
+[1597791693.715][INFO]: Done waiting for pending navigations. Status: ok
+[1597791693.718][INFO]: Waiting for pending navigations...
+[1597791693.719][INFO]: Done waiting for pending navigations. Status: ok
+[1597791693.719][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE ExecuteScript "\u003Chtml lang=\"en\">\u003Chead>\u003Cmeta charset=\"utf-8\">\u003Clink rel=\"shortcut icon\" href=\"/favicon.ico\">\u003Cmeta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\u003Cmeta name=\"theme-color\" content=\"#00000..."
+[1597791693.727][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND Screenshot {
+
+}
+[1597791693.727][INFO]: Waiting for pending navigations...
+[1597791693.729][INFO]: Done waiting for pending navigations. Status: ok
+[1597791694.035][INFO]: Waiting for pending navigations...
+[1597791694.036][INFO]: Done waiting for pending navigations. Status: ok
+[1597791694.036][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABVYAAAKxCAYAAAC43/emAAABK2lDQ1BTa2lhAAAokX2Rv0vDQBTHPxYRqg6Cih0csggu/kjVhoJL02pxcGkVqoOQpqGITQ1pRHdx849wFCf/DHfByVVnoeDg5PfaIQWp73j3Pvd9l7v3cpDJIcvMQdhN4lrVtRonpxYj5vm9iPE2A..."
+[1597791694.163][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] COMMAND Quit {
+
+}
+[1597791694.268][INFO]: [3d4c88dd9275eb10f34c28643ed8dbcd] RESPONSE Quit
