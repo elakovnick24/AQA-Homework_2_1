@@ -9,7 +9,7 @@ public class AutoTest {
     @Test
     void shouldSubmitRequest() {
         open("http://localhost:7777");
-        SelenideElement form = $("[method=post]");
+        SelenideElement form = $(".form[method=post]");
         form.$("[data-test-id=name] input").setValue("Василий Алибабаевич");
         form.$("[data-test-id=phone] input").setValue("+79778889999");
         form.$("[data-test-id=agreement]").click();
