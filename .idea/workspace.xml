@@ -20,7 +20,6 @@
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-AutoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-AutoTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AutoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,26 @@
       <recent name="$PROJECT_DIR$/artifacts" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AutoTest.validationCheckPhone">
+  <component name="RunManager" selected="Gradle.AutoTest.validationCheckName">
+    <configuration name="AutoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;AutoTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="AutoTest.shouldSubmitRequest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -126,8 +144,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AutoTest.validationCheckPhone" />
         <item itemvalue="Gradle.AutoTest.validationCheckName" />
+        <item itemvalue="Gradle.AutoTest" />
+        <item itemvalue="Gradle.AutoTest.validationCheckPhone" />
         <item itemvalue="Gradle.AutoTest.shouldSubmitRequest" />
       </list>
     </recent_temporary>
@@ -148,29 +167,33 @@
       <screen x="-573" y="-1440" width="2560" height="1440" />
     </state>
     <state x="-187" y="-911" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/-573.-1440.2560.1440@-573.-1440.2560.1440" timestamp="1597617627842" />
-    <state width="2518" height="639" key="GridCell.Tab.0.bottom" timestamp="1597791990343">
-      <screen x="-573" y="-1440" width="2560" height="1440" />
+    <state width="1398" height="678" key="GridCell.Tab.0.bottom" timestamp="1597792787314">
+      <screen x="-573" y="-1417" width="2560" height="1417" />
     </state>
-    <state width="2518" height="639" key="GridCell.Tab.0.bottom/0.0.1440.900/-573.-1440.2560.1440@-573.-1440.2560.1440" timestamp="1597791990343" />
+    <state width="2518" height="639" key="GridCell.Tab.0.bottom/0.0.1440.900/-573.-1440.2560.1440@-573.-1440.2560.1440" timestamp="1597792229994" />
     <state width="2518" height="574" key="GridCell.Tab.0.bottom/0.0.1440.900/-573.-1440.2560.1440@0.0.1440.900" timestamp="1597733200520" />
+    <state width="1398" height="678" key="GridCell.Tab.0.bottom/0.23.1440.828/-573.-1417.2560.1417@-573.-1417.2560.1417" timestamp="1597792787314" />
     <state width="2518" height="424" key="GridCell.Tab.0.bottom/0.23.1440.877/-573.-1440.2560.1440@-573.-1440.2560.1440" timestamp="1597619457850" />
-    <state width="2518" height="639" key="GridCell.Tab.0.center" timestamp="1597791990341">
-      <screen x="-573" y="-1440" width="2560" height="1440" />
+    <state width="1398" height="678" key="GridCell.Tab.0.center" timestamp="1597792787313">
+      <screen x="-573" y="-1417" width="2560" height="1417" />
     </state>
-    <state width="2518" height="639" key="GridCell.Tab.0.center/0.0.1440.900/-573.-1440.2560.1440@-573.-1440.2560.1440" timestamp="1597791990341" />
+    <state width="2518" height="639" key="GridCell.Tab.0.center/0.0.1440.900/-573.-1440.2560.1440@-573.-1440.2560.1440" timestamp="1597792229991" />
     <state width="2518" height="574" key="GridCell.Tab.0.center/0.0.1440.900/-573.-1440.2560.1440@0.0.1440.900" timestamp="1597733200510" />
+    <state width="1398" height="678" key="GridCell.Tab.0.center/0.23.1440.828/-573.-1417.2560.1417@-573.-1417.2560.1417" timestamp="1597792787313" />
     <state width="2518" height="424" key="GridCell.Tab.0.center/0.23.1440.877/-573.-1440.2560.1440@-573.-1440.2560.1440" timestamp="1597619457847" />
-    <state width="2518" height="639" key="GridCell.Tab.0.left" timestamp="1597791990339">
-      <screen x="-573" y="-1440" width="2560" height="1440" />
+    <state width="1398" height="678" key="GridCell.Tab.0.left" timestamp="1597792787312">
+      <screen x="-573" y="-1417" width="2560" height="1417" />
     </state>
-    <state width="2518" height="639" key="GridCell.Tab.0.left/0.0.1440.900/-573.-1440.2560.1440@-573.-1440.2560.1440" timestamp="1597791990339" />
+    <state width="2518" height="639" key="GridCell.Tab.0.left/0.0.1440.900/-573.-1440.2560.1440@-573.-1440.2560.1440" timestamp="1597792229990" />
     <state width="2518" height="574" key="GridCell.Tab.0.left/0.0.1440.900/-573.-1440.2560.1440@0.0.1440.900" timestamp="1597733200508" />
+    <state width="1398" height="678" key="GridCell.Tab.0.left/0.23.1440.828/-573.-1417.2560.1417@-573.-1417.2560.1417" timestamp="1597792787312" />
     <state width="2518" height="424" key="GridCell.Tab.0.left/0.23.1440.877/-573.-1440.2560.1440@-573.-1440.2560.1440" timestamp="1597619457845" />
-    <state width="2518" height="639" key="GridCell.Tab.0.right" timestamp="1597791990342">
-      <screen x="-573" y="-1440" width="2560" height="1440" />
+    <state width="1398" height="678" key="GridCell.Tab.0.right" timestamp="1597792787313">
+      <screen x="-573" y="-1417" width="2560" height="1417" />
     </state>
-    <state width="2518" height="639" key="GridCell.Tab.0.right/0.0.1440.900/-573.-1440.2560.1440@-573.-1440.2560.1440" timestamp="1597791990342" />
+    <state width="2518" height="639" key="GridCell.Tab.0.right/0.0.1440.900/-573.-1440.2560.1440@-573.-1440.2560.1440" timestamp="1597792229992" />
     <state width="2518" height="574" key="GridCell.Tab.0.right/0.0.1440.900/-573.-1440.2560.1440@0.0.1440.900" timestamp="1597733200511" />
+    <state width="1398" height="678" key="GridCell.Tab.0.right/0.23.1440.828/-573.-1417.2560.1417@-573.-1417.2560.1417" timestamp="1597792787313" />
     <state width="2518" height="424" key="GridCell.Tab.0.right/0.23.1440.877/-573.-1440.2560.1440@-573.-1440.2560.1440" timestamp="1597619457849" />
     <state width="2518" height="574" key="GridCell.Tab.1.bottom" timestamp="1597733200538">
       <screen x="0" y="0" width="1440" height="900" />
