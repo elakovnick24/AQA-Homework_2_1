@@ -1,0 +1,234 @@
+[1597852560.676][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 32442
+[1597852560.676][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1597852561.284][INFO]: [e52b4d5728b0be8bf059cc48690533a1] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/nikitaelakov/IdeaProjects/homework_2_1/build/downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/nikitaelakov/IdeaProjects/homework_2_1/build/downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1597852561.287][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/nikitaelakov/IdeaProjects/homework_2_1/build/downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1597852561.288][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1597852561.288][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/zg/m568w6_90vb70mg1ttf_n6gw0000gn/T/.com.google.Chrome.QwD9ut data:,
+[1597852562.969][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1597852562.974][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1597852563.010][INFO]: [e52b4d5728b0be8bf059cc48690533a1] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.125",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "/var/folders/zg/m568w6_90vb70mg1ttf_n6gw0000gn/T/.com.google.Chrome.QwD9ut"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:51248"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "e52b4d5728b0be8bf059cc48690533a1"
+}
+[1597852563.244][INFO]: [e52b4d5728b0be8bf059cc48690533a1] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1597852563.244][INFO]: Waiting for pending navigations...
+[1597852563.246][INFO]: Done waiting for pending navigations. Status: ok
+[1597852563.352][INFO]: Waiting for pending navigations...
+[1597852563.359][INFO]: Done waiting for pending navigations. Status: ok
+[1597852563.359][INFO]: [e52b4d5728b0be8bf059cc48690533a1] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 22,
+   "y": 45
+}
+[1597852563.449][INFO]: [e52b4d5728b0be8bf059cc48690533a1] COMMAND Navigate {
+   "url": "http://localhost:7777"
+}
+[1597852563.449][INFO]: Waiting for pending navigations...
+[1597852563.450][INFO]: Done waiting for pending navigations. Status: ok
+[1597852563.540][INFO]: Waiting for pending navigations...
+[1597852564.161][INFO]: Done waiting for pending navigations. Status: ok
+[1597852564.161][INFO]: [e52b4d5728b0be8bf059cc48690533a1] RESPONSE Navigate
+[1597852564.345][INFO]: [e52b4d5728b0be8bf059cc48690533a1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "[name='name']"
+}
+[1597852564.345][INFO]: Waiting for pending navigations...
+[1597852564.347][INFO]: Done waiting for pending navigations. Status: ok
+[1597852564.369][INFO]: Waiting for pending navigations...
+[1597852564.370][INFO]: Done waiting for pending navigations. Status: ok
+[1597852564.370][INFO]: [e52b4d5728b0be8bf059cc48690533a1] RESPONSE FindElement ERROR invalid selector: Unable to locate an element with the xpath expression [name='name'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '[name='name']' is not a valid XPath expression.
+  (Session info: chrome=84.0.4147.125)
+[1597852564.421][INFO]: [e52b4d5728b0be8bf059cc48690533a1] COMMAND GetTitle {
+
+}
+[1597852564.421][INFO]: Waiting for pending navigations...
+[1597852564.423][INFO]: Done waiting for pending navigations. Status: ok
+[1597852564.426][INFO]: Waiting for pending navigations...
+[1597852564.427][INFO]: Done waiting for pending navigations. Status: ok
+[1597852564.427][INFO]: [e52b4d5728b0be8bf059cc48690533a1] RESPONSE GetTitle "AQA: Заявка на карту"
+[1597852564.437][INFO]: [e52b4d5728b0be8bf059cc48690533a1] COMMAND Navigate {
+   "url": "http://localhost:7777"
+}
+[1597852564.437][INFO]: Waiting for pending navigations...
+[1597852564.438][INFO]: Done waiting for pending navigations. Status: ok
+[1597852564.563][INFO]: Waiting for pending navigations...
+[1597852564.954][INFO]: Done waiting for pending navigations. Status: ok
+[1597852564.954][INFO]: [e52b4d5728b0be8bf059cc48690533a1] RESPONSE Navigate
+[1597852564.965][INFO]: [e52b4d5728b0be8bf059cc48690533a1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "[name='name']"
+}
+[1597852564.965][INFO]: Waiting for pending navigations...
+[1597852564.967][INFO]: Done waiting for pending navigations. Status: ok
+[1597852564.975][INFO]: Waiting for pending navigations...
+[1597852564.976][INFO]: Done waiting for pending navigations. Status: ok
+[1597852564.976][INFO]: [e52b4d5728b0be8bf059cc48690533a1] RESPONSE FindElement ERROR invalid selector: Unable to locate an element with the xpath expression [name='name'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '[name='name']' is not a valid XPath expression.
+  (Session info: chrome=84.0.4147.125)
+[1597852564.988][INFO]: [e52b4d5728b0be8bf059cc48690533a1] COMMAND GetTitle {
+
+}
+[1597852564.989][INFO]: Waiting for pending navigations...
+[1597852564.991][INFO]: Done waiting for pending navigations. Status: ok
+[1597852564.993][INFO]: Waiting for pending navigations...
+[1597852564.995][INFO]: Done waiting for pending navigations. Status: ok
+[1597852564.995][INFO]: [e52b4d5728b0be8bf059cc48690533a1] RESPONSE GetTitle "AQA: Заявка на карту"
+[1597852565.001][INFO]: [e52b4d5728b0be8bf059cc48690533a1] COMMAND Navigate {
+   "url": "http://localhost:7777"
+}
+[1597852565.001][INFO]: Waiting for pending navigations...
+[1597852565.025][INFO]: Done waiting for pending navigations. Status: ok
+[1597852565.082][INFO]: Waiting for pending navigations...
+[1597852565.367][INFO]: Done waiting for pending navigations. Status: ok
+[1597852565.367][INFO]: [e52b4d5728b0be8bf059cc48690533a1] RESPONSE Navigate
+[1597852565.374][INFO]: [e52b4d5728b0be8bf059cc48690533a1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "[name='name']"
+}
+[1597852565.374][INFO]: Waiting for pending navigations...
+[1597852565.380][INFO]: Done waiting for pending navigations. Status: ok
+[1597852565.393][INFO]: Waiting for pending navigations...
+[1597852565.394][INFO]: Done waiting for pending navigations. Status: ok
+[1597852565.394][INFO]: [e52b4d5728b0be8bf059cc48690533a1] RESPONSE FindElement ERROR invalid selector: Unable to locate an element with the xpath expression [name='name'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '[name='name']' is not a valid XPath expression.
+  (Session info: chrome=84.0.4147.125)
+[1597852565.440][INFO]: [e52b4d5728b0be8bf059cc48690533a1] COMMAND Quit {
+
+}
+[1597852565.608][INFO]: [e52b4d5728b0be8bf059cc48690533a1] RESPONSE Quit

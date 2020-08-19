@@ -1,0 +1,341 @@
+[1597858347.591][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 34097
+[1597858347.592][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1597858348.158][INFO]: [d2e393227c037b4ad1e6eb206859e896] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/nikitaelakov/IdeaProjects/homework_2_1/build/downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/nikitaelakov/IdeaProjects/homework_2_1/build/downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1597858348.159][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/nikitaelakov/IdeaProjects/homework_2_1/build/downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1597858348.160][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1597858348.160][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/zg/m568w6_90vb70mg1ttf_n6gw0000gn/T/.com.google.Chrome.X1ydVm data:,
+[1597858349.862][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1597858349.873][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1597858349.935][INFO]: [d2e393227c037b4ad1e6eb206859e896] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.125",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "/var/folders/zg/m568w6_90vb70mg1ttf_n6gw0000gn/T/.com.google.Chrome.X1ydVm"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:58937"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "d2e393227c037b4ad1e6eb206859e896"
+}
+[1597858350.201][INFO]: [d2e393227c037b4ad1e6eb206859e896] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1597858350.202][INFO]: Waiting for pending navigations...
+[1597858350.203][INFO]: Done waiting for pending navigations. Status: ok
+[1597858350.311][INFO]: Waiting for pending navigations...
+[1597858350.312][INFO]: Done waiting for pending navigations. Status: ok
+[1597858350.312][INFO]: [d2e393227c037b4ad1e6eb206859e896] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": -551,
+   "y": -1395
+}
+[1597858350.328][INFO]: [d2e393227c037b4ad1e6eb206859e896] COMMAND Navigate {
+   "url": "http://localhost:7777"
+}
+[1597858350.328][INFO]: Waiting for pending navigations...
+[1597858350.329][INFO]: Done waiting for pending navigations. Status: ok
+[1597858350.566][INFO]: Waiting for pending navigations...
+[1597858351.213][INFO]: Done waiting for pending navigations. Status: ok
+[1597858351.213][INFO]: [d2e393227c037b4ad1e6eb206859e896] RESPONSE Navigate
+[1597858351.463][INFO]: [d2e393227c037b4ad1e6eb206859e896] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[name='name']"
+}
+[1597858351.463][INFO]: Waiting for pending navigations...
+[1597858351.464][INFO]: Done waiting for pending navigations. Status: ok
+[1597858351.479][INFO]: Waiting for pending navigations...
+[1597858351.480][INFO]: Done waiting for pending navigations. Status: ok
+[1597858351.480][INFO]: [d2e393227c037b4ad1e6eb206859e896] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[name='name']"}
+  (Session info: chrome=84.0.4147.125)
+[1597858351.745][INFO]: [d2e393227c037b4ad1e6eb206859e896] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[name='name']"
+}
+[1597858351.745][INFO]: Waiting for pending navigations...
+[1597858351.746][INFO]: Done waiting for pending navigations. Status: ok
+[1597858351.752][INFO]: Waiting for pending navigations...
+[1597858351.753][INFO]: Done waiting for pending navigations. Status: ok
+[1597858351.753][INFO]: [d2e393227c037b4ad1e6eb206859e896] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[name='name']"}
+  (Session info: chrome=84.0.4147.125)
+[1597858351.968][INFO]: [d2e393227c037b4ad1e6eb206859e896] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[name='name']"
+}
+[1597858351.968][INFO]: Waiting for pending navigations...
+[1597858351.969][INFO]: Done waiting for pending navigations. Status: ok
+[1597858351.977][INFO]: Waiting for pending navigations...
+[1597858351.979][INFO]: Done waiting for pending navigations. Status: ok
+[1597858351.979][INFO]: [d2e393227c037b4ad1e6eb206859e896] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[name='name']"}
+  (Session info: chrome=84.0.4147.125)
+[1597858352.193][INFO]: [d2e393227c037b4ad1e6eb206859e896] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[name='name']"
+}
+[1597858352.193][INFO]: Waiting for pending navigations...
+[1597858352.194][INFO]: Done waiting for pending navigations. Status: ok
+[1597858352.200][INFO]: Waiting for pending navigations...
+[1597858352.201][INFO]: Done waiting for pending navigations. Status: ok
+[1597858352.201][INFO]: [d2e393227c037b4ad1e6eb206859e896] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[name='name']"}
+  (Session info: chrome=84.0.4147.125)
+[1597858352.412][INFO]: [d2e393227c037b4ad1e6eb206859e896] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[name='name']"
+}
+[1597858352.412][INFO]: Waiting for pending navigations...
+[1597858352.414][INFO]: Done waiting for pending navigations. Status: ok
+[1597858352.422][INFO]: Waiting for pending navigations...
+[1597858352.423][INFO]: Done waiting for pending navigations. Status: ok
+[1597858352.423][INFO]: [d2e393227c037b4ad1e6eb206859e896] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[name='name']"}
+  (Session info: chrome=84.0.4147.125)
+[1597858352.645][INFO]: [d2e393227c037b4ad1e6eb206859e896] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[name='name']"
+}
+[1597858352.646][INFO]: Waiting for pending navigations...
+[1597858352.647][INFO]: Done waiting for pending navigations. Status: ok
+[1597858352.652][INFO]: Waiting for pending navigations...
+[1597858352.653][INFO]: Done waiting for pending navigations. Status: ok
+[1597858352.653][INFO]: [d2e393227c037b4ad1e6eb206859e896] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[name='name']"}
+  (Session info: chrome=84.0.4147.125)
+[1597858352.865][INFO]: [d2e393227c037b4ad1e6eb206859e896] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[name='name']"
+}
+[1597858352.865][INFO]: Waiting for pending navigations...
+[1597858352.868][INFO]: Done waiting for pending navigations. Status: ok
+[1597858352.876][INFO]: Waiting for pending navigations...
+[1597858352.877][INFO]: Done waiting for pending navigations. Status: ok
+[1597858352.877][INFO]: [d2e393227c037b4ad1e6eb206859e896] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[name='name']"}
+  (Session info: chrome=84.0.4147.125)
+[1597858353.086][INFO]: [d2e393227c037b4ad1e6eb206859e896] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[name='name']"
+}
+[1597858353.086][INFO]: Waiting for pending navigations...
+[1597858353.087][INFO]: Done waiting for pending navigations. Status: ok
+[1597858353.094][INFO]: Waiting for pending navigations...
+[1597858353.095][INFO]: Done waiting for pending navigations. Status: ok
+[1597858353.095][INFO]: [d2e393227c037b4ad1e6eb206859e896] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[name='name']"}
+  (Session info: chrome=84.0.4147.125)
+[1597858353.310][INFO]: [d2e393227c037b4ad1e6eb206859e896] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[name='name']"
+}
+[1597858353.310][INFO]: Waiting for pending navigations...
+[1597858353.311][INFO]: Done waiting for pending navigations. Status: ok
+[1597858353.318][INFO]: Waiting for pending navigations...
+[1597858353.319][INFO]: Done waiting for pending navigations. Status: ok
+[1597858353.319][INFO]: [d2e393227c037b4ad1e6eb206859e896] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[name='name']"}
+  (Session info: chrome=84.0.4147.125)
+[1597858353.532][INFO]: [d2e393227c037b4ad1e6eb206859e896] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[name='name']"
+}
+[1597858353.533][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1597858353.539][INFO]: [d2e393227c037b4ad1e6eb206859e896] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)
+[1597858353.749][INFO]: [d2e393227c037b4ad1e6eb206859e896] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[name='name']"
+}
+[1597858353.750][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1597858353.757][INFO]: [d2e393227c037b4ad1e6eb206859e896] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)
+[1597858353.975][INFO]: [d2e393227c037b4ad1e6eb206859e896] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[name='name']"
+}
+[1597858353.976][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1597858353.980][INFO]: [d2e393227c037b4ad1e6eb206859e896] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)
+[1597858354.192][INFO]: [d2e393227c037b4ad1e6eb206859e896] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[name='name']"
+}
+[1597858354.193][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1597858354.200][INFO]: [d2e393227c037b4ad1e6eb206859e896] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)
+[1597858354.412][INFO]: [d2e393227c037b4ad1e6eb206859e896] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[name='name']"
+}
+[1597858354.413][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1597858354.419][INFO]: [d2e393227c037b4ad1e6eb206859e896] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)
+[1597858354.634][INFO]: [d2e393227c037b4ad1e6eb206859e896] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[name='name']"
+}
+[1597858354.635][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1597858354.642][INFO]: [d2e393227c037b4ad1e6eb206859e896] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)
+[1597858354.854][INFO]: [d2e393227c037b4ad1e6eb206859e896] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[name='name']"
+}
+[1597858354.855][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1597858354.862][INFO]: [d2e393227c037b4ad1e6eb206859e896] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)
+[1597858355.079][INFO]: [d2e393227c037b4ad1e6eb206859e896] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[name='name']"
+}
+[1597858355.082][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1597858355.087][INFO]: [d2e393227c037b4ad1e6eb206859e896] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)
+[1597858355.311][INFO]: [d2e393227c037b4ad1e6eb206859e896] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[name='name']"
+}
+[1597858355.312][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1597858355.318][INFO]: [d2e393227c037b4ad1e6eb206859e896] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)
+[1597858355.551][INFO]: [d2e393227c037b4ad1e6eb206859e896] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1597858355.554][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1597858355.564][INFO]: [d2e393227c037b4ad1e6eb206859e896] RESPONSE ExecuteScript ERROR no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)
+[1597858355.574][INFO]: [d2e393227c037b4ad1e6eb206859e896] COMMAND Screenshot {
+
+}
+[1597858355.579][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1597858355.585][INFO]: [d2e393227c037b4ad1e6eb206859e896] RESPONSE Screenshot ERROR no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)
+[1597858355.620][INFO]: [d2e393227c037b4ad1e6eb206859e896] COMMAND GetTitle {
+
+}
+[1597858355.629][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1597858355.666][INFO]: [d2e393227c037b4ad1e6eb206859e896] RESPONSE GetTitle ERROR no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)
+[1597858355.720][INFO]: [d2e393227c037b4ad1e6eb206859e896] COMMAND Quit {
+
+}
+[1597858355.771][INFO]: [d2e393227c037b4ad1e6eb206859e896] RESPONSE Quit

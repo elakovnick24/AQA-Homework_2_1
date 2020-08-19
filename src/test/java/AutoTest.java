@@ -1,10 +1,7 @@
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.exactText;
-import static com.codeborne.selenide.Condition.visible;
-import static com.codeborne.selenide.Selectors.withText;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.*;
 
 public class AutoTest {
     @Test
@@ -20,11 +17,11 @@ public class AutoTest {
     @Test
     void validationCheckName() {
         open("http://localhost:7777");
-        $("[name='name']").setValue("Marusya");
-       $("[data-test-id=phone] input").setValue("+79778889999");
-       $("[data-test-id=agreement]").click();
-       $("[type=button]").click();
-       $(".input__sub").shouldHave(exactText("Имя и Фамилия указаные неверно. Допустимы только русские буквы, пробелы и дефисы."));
+       $("[name='name']").setValue("Marusya");
+        $("[data-test-id=phone] input").setValue("+79778889999");
+        $("[data-test-id=agreement]").click();
+        $("[type=button]").click();
+        $(".input__sub").shouldHave(exactText("Имя и Фамилия указаные неверно. Допустимы только русские буквы, пробелы и дефисы."));
     }
 
     @Test
