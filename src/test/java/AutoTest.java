@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class AutoTest {
     @Test
     void shouldSubmitRequest() {
-        open("http://localhost:7777");
+        open("http://localhost:9999");
         $("[data-test-id=name] input").setValue("Василий");
         $("[data-test-id=phone] input").setValue("+79778889999");
         $("[data-test-id=agreement]").click();
@@ -17,7 +17,7 @@ public class AutoTest {
 
     @Test
     void validationCheckName() {
-        open("http://localhost:7777");
+        open("http://localhost:9999");
         $("[data-test-id=name] input").setValue("Marusya");
         $("[data-test-id=phone] input").setValue("+79778889999");
         $("[data-test-id=agreement]").click();
@@ -27,7 +27,7 @@ public class AutoTest {
 
     @Test
     void validationCheckPhone() {
-        open("http://localhost:7777");
+        open("http://localhost:9999");
         $("[data-test-id=name] input").setValue("Никита Несборочный");
         $("[data-test-id=phone] input").setValue("+797788899990000");
         $("[data-test-id=agreement]").click();

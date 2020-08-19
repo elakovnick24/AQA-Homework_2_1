@@ -1,0 +1,542 @@
+[1597867020.643][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 9299
+[1597867020.643][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1597867021.175][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/nikitaelakov/IdeaProjects/homework_2_1/build/downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/nikitaelakov/IdeaProjects/homework_2_1/build/downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1597867021.177][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/nikitaelakov/IdeaProjects/homework_2_1/build/downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1597867021.178][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1597867021.179][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/zg/m568w6_90vb70mg1ttf_n6gw0000gn/T/.com.google.Chrome.v5ot3T data:,
+[1597867023.147][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1597867023.154][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1597867023.205][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.125",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "/var/folders/zg/m568w6_90vb70mg1ttf_n6gw0000gn/T/.com.google.Chrome.v5ot3T"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:55857"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "d801ceaa0e439632a7b71983c7d9064b"
+}
+[1597867023.363][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1597867023.363][INFO]: Waiting for pending navigations...
+[1597867023.365][INFO]: Done waiting for pending navigations. Status: ok
+[1597867023.474][INFO]: Waiting for pending navigations...
+[1597867023.475][INFO]: Done waiting for pending navigations. Status: ok
+[1597867023.475][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": -551,
+   "y": -1395
+}
+[1597867023.494][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND Navigate {
+   "url": "http://localhost:7777"
+}
+[1597867023.494][INFO]: Waiting for pending navigations...
+[1597867023.496][INFO]: Done waiting for pending navigations. Status: ok
+[1597867023.634][INFO]: Waiting for pending navigations...
+[1597867024.398][INFO]: Done waiting for pending navigations. Status: ok
+[1597867024.398][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE Navigate
+[1597867024.569][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-test-id=name] input"
+}
+[1597867024.569][INFO]: Waiting for pending navigations...
+[1597867024.571][INFO]: Done waiting for pending navigations. Status: ok
+[1597867024.587][INFO]: Waiting for pending navigations...
+[1597867024.588][INFO]: Done waiting for pending navigations. Status: ok
+[1597867024.588][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "feaea8da-b8e1-4409-9d40-71189384c124"
+}
+[1597867024.641][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "feaea8da-b8e1-4409-9d40-71189384c124"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597867024.641][INFO]: Waiting for pending navigations...
+[1597867024.642][INFO]: Done waiting for pending navigations. Status: ok
+[1597867024.658][INFO]: Waiting for pending navigations...
+[1597867024.659][INFO]: Done waiting for pending navigations. Status: ok
+[1597867024.659][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE ExecuteScript true
+[1597867024.667][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND ClearElement {
+   "id": "feaea8da-b8e1-4409-9d40-71189384c124"
+}
+[1597867024.667][INFO]: Waiting for pending navigations...
+[1597867024.668][INFO]: Done waiting for pending navigations. Status: ok
+[1597867024.698][INFO]: 
+	=== NOTE: ===
+	The Clear command in ChromeDriver 2.43 and above
+	has been updated to conform to the current standard,
+	including raising blur event after clearing.
+
+[1597867024.709][INFO]: Waiting for pending navigations...
+[1597867024.710][INFO]: Done waiting for pending navigations. Status: ok
+[1597867024.710][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE ClearElement
+[1597867024.721][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND TypeElement {
+   "id": "feaea8da-b8e1-4409-9d40-71189384c124",
+   "text": "Никита Несборочный",
+   "value": [ "Н", "и", "к", "и", "т", "а", " ", "Н", "е", "с", "б", "о", "р", "о", "ч", "н", "ы", "й" ]
+}
+[1597867024.721][INFO]: Waiting for pending navigations...
+[1597867024.722][INFO]: Done waiting for pending navigations. Status: ok
+[1597867024.902][INFO]: Waiting for pending navigations...
+[1597867024.910][INFO]: Done waiting for pending navigations. Status: ok
+[1597867024.910][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE TypeElement
+[1597867024.918][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-test-id=phone] input"
+}
+[1597867024.918][INFO]: Waiting for pending navigations...
+[1597867024.919][INFO]: Done waiting for pending navigations. Status: ok
+[1597867024.928][INFO]: Waiting for pending navigations...
+[1597867024.929][INFO]: Done waiting for pending navigations. Status: ok
+[1597867024.929][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "8b298383-75d2-4a32-8000-d4ec9c5c729a"
+}
+[1597867024.957][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "8b298383-75d2-4a32-8000-d4ec9c5c729a"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597867024.957][INFO]: Waiting for pending navigations...
+[1597867024.958][INFO]: Done waiting for pending navigations. Status: ok
+[1597867024.971][INFO]: Waiting for pending navigations...
+[1597867024.973][INFO]: Done waiting for pending navigations. Status: ok
+[1597867024.973][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE ExecuteScript true
+[1597867024.979][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND ClearElement {
+   "id": "8b298383-75d2-4a32-8000-d4ec9c5c729a"
+}
+[1597867024.979][INFO]: Waiting for pending navigations...
+[1597867024.983][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.025][INFO]: Waiting for pending navigations...
+[1597867025.026][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.026][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE ClearElement
+[1597867025.033][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND TypeElement {
+   "id": "8b298383-75d2-4a32-8000-d4ec9c5c729a",
+   "text": "+797788899990000",
+   "value": [ "+", "7", "9", "7", "7", "8", "8", "8", "9", "9", "9", "9", "0", "0", "0", "0" ]
+}
+[1597867025.033][INFO]: Waiting for pending navigations...
+[1597867025.036][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.149][INFO]: Waiting for pending navigations...
+[1597867025.154][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.154][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE TypeElement
+[1597867025.163][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-test-id=agreement]"
+}
+[1597867025.163][INFO]: Waiting for pending navigations...
+[1597867025.166][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.174][INFO]: Waiting for pending navigations...
+[1597867025.175][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.175][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e298481d-a7e3-437b-b612-1748ee98b881"
+}
+[1597867025.193][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "e298481d-a7e3-437b-b612-1748ee98b881"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597867025.193][INFO]: Waiting for pending navigations...
+[1597867025.194][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.208][INFO]: Waiting for pending navigations...
+[1597867025.210][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.210][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE ExecuteScript true
+[1597867025.218][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND ClickElement {
+   "id": "e298481d-a7e3-437b-b612-1748ee98b881"
+}
+[1597867025.218][INFO]: Waiting for pending navigations...
+[1597867025.219][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.268][INFO]: Waiting for pending navigations...
+[1597867025.274][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.274][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE ClickElement
+[1597867025.280][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[type=button]"
+}
+[1597867025.280][INFO]: Waiting for pending navigations...
+[1597867025.285][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.295][INFO]: Waiting for pending navigations...
+[1597867025.296][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.296][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "44e31952-ee9e-4d1f-84c4-cf0bbfc459ef"
+}
+[1597867025.312][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "44e31952-ee9e-4d1f-84c4-cf0bbfc459ef"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597867025.312][INFO]: Waiting for pending navigations...
+[1597867025.319][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.328][INFO]: Waiting for pending navigations...
+[1597867025.329][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.329][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE ExecuteScript true
+[1597867025.342][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND ClickElement {
+   "id": "44e31952-ee9e-4d1f-84c4-cf0bbfc459ef"
+}
+[1597867025.343][INFO]: Waiting for pending navigations...
+[1597867025.344][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.402][INFO]: Waiting for pending navigations...
+[1597867025.407][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.407][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE ClickElement
+[1597867025.412][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-test-id=phone] .input__sub"
+}
+[1597867025.412][INFO]: Waiting for pending navigations...
+[1597867025.417][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.425][INFO]: Waiting for pending navigations...
+[1597867025.426][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.426][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "713161bd-e280-4e88-b94e-0773e6cb97e8"
+}
+[1597867025.431][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND GetElementText {
+   "id": "713161bd-e280-4e88-b94e-0773e6cb97e8"
+}
+[1597867025.431][INFO]: Waiting for pending navigations...
+[1597867025.434][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.447][INFO]: Waiting for pending navigations...
+[1597867025.449][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.449][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE GetElementText "Телефон указан неверно. Должно быть 11 цифр, например, +79012345678."
+[1597867025.481][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND GetTitle {
+
+}
+[1597867025.481][INFO]: Waiting for pending navigations...
+[1597867025.484][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.487][INFO]: Waiting for pending navigations...
+[1597867025.488][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.489][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE GetTitle "AQA: Заявка на карту"
+[1597867025.494][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND Navigate {
+   "url": "http://localhost:7777"
+}
+[1597867025.494][INFO]: Waiting for pending navigations...
+[1597867025.495][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.536][INFO]: Waiting for pending navigations...
+[1597867025.723][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.723][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE Navigate
+[1597867025.733][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-test-id=name] input"
+}
+[1597867025.734][INFO]: Waiting for pending navigations...
+[1597867025.736][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.741][INFO]: Waiting for pending navigations...
+[1597867025.742][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.742][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "29e10f59-0ef5-4ed6-bcfc-6a69282522b3"
+}
+[1597867025.763][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "29e10f59-0ef5-4ed6-bcfc-6a69282522b3"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597867025.763][INFO]: Waiting for pending navigations...
+[1597867025.765][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.772][INFO]: Waiting for pending navigations...
+[1597867025.773][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.773][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE ExecuteScript true
+[1597867025.778][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND ClearElement {
+   "id": "29e10f59-0ef5-4ed6-bcfc-6a69282522b3"
+}
+[1597867025.778][INFO]: Waiting for pending navigations...
+[1597867025.780][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.813][INFO]: Waiting for pending navigations...
+[1597867025.814][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.814][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE ClearElement
+[1597867025.818][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND TypeElement {
+   "id": "29e10f59-0ef5-4ed6-bcfc-6a69282522b3",
+   "text": "Marusya",
+   "value": [ "M", "a", "r", "u", "s", "y", "a" ]
+}
+[1597867025.818][INFO]: Waiting for pending navigations...
+[1597867025.819][INFO]: Done waiting for pending navigations. Status: ok
+[1597867025.837][INFO]: Waiting for pending navigations...
+[1597867025.837][INFO]: Done waiting for pending navigations. Status: disconnected: not connected to DevTools
+[1597867025.849][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE TypeElement
+[1597867025.855][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-test-id=phone] input"
+}
+[1597867025.855][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.125)
+[1597867026.121][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-test-id=phone] input"
+}
+[1597867026.121][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.125)
+[1597867026.332][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-test-id=phone] input"
+}
+[1597867026.332][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.125)
+[1597867026.548][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-test-id=phone] input"
+}
+[1597867026.549][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.125)
+[1597867026.759][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-test-id=phone] input"
+}
+[1597867026.759][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.125)
+[1597867026.971][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-test-id=phone] input"
+}
+[1597867026.971][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.125)
+[1597867027.178][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-test-id=phone] input"
+}
+[1597867027.178][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.125)
+[1597867027.391][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-test-id=phone] input"
+}
+[1597867027.391][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.125)
+[1597867027.608][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-test-id=phone] input"
+}
+[1597867027.608][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.125)
+[1597867027.818][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-test-id=phone] input"
+}
+[1597867027.818][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.125)
+[1597867028.025][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-test-id=phone] input"
+}
+[1597867028.025][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.125)
+[1597867028.237][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-test-id=phone] input"
+}
+[1597867028.237][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.125)
+[1597867028.450][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-test-id=phone] input"
+}
+[1597867028.451][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.125)
+[1597867028.670][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-test-id=phone] input"
+}
+[1597867028.670][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.125)
+[1597867028.885][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-test-id=phone] input"
+}
+[1597867028.885][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.125)
+[1597867029.094][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-test-id=phone] input"
+}
+[1597867029.094][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.125)
+[1597867029.307][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-test-id=phone] input"
+}
+[1597867029.307][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.125)
+[1597867029.522][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-test-id=phone] input"
+}
+[1597867029.523][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.125)
+[1597867029.731][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-test-id=phone] input"
+}
+[1597867029.732][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.125)
+[1597867029.958][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1597867029.958][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE ExecuteScript ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.125)
+[1597867029.962][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND Screenshot {
+
+}
+[1597867029.962][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE Screenshot ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.125)
+[1597867029.969][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND GetTitle {
+
+}
+[1597867029.969][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE GetTitle ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.125)
+[1597867029.977][INFO]: [d801ceaa0e439632a7b71983c7d9064b] COMMAND Quit {
+
+}
+[1597867030.028][INFO]: [d801ceaa0e439632a7b71983c7d9064b] RESPONSE Quit
