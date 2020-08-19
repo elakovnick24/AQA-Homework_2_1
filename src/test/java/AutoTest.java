@@ -1,13 +1,14 @@
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.exactText;
-import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.open;
 
 public class AutoTest {
     @Test
     void shouldSubmitRequest() {
         open("http://localhost:7777");
-        $("[name='name']").setValue("Вася");
+        $("[data-test-id=name] input").setValue("Василий");
         $("[data-test-id=phone] input").setValue("+79778889999");
         $("[data-test-id=agreement]").click();
         $("[type=button]").click();
@@ -17,7 +18,7 @@ public class AutoTest {
     @Test
     void validationCheckName() {
         open("http://localhost:7777");
-       $("[name='name']").setValue("Marusya");
+        $("[data-test-id=name] input").setValue("Marusya");
         $("[data-test-id=phone] input").setValue("+79778889999");
         $("[data-test-id=agreement]").click();
         $("[type=button]").click();
@@ -27,13 +28,14 @@ public class AutoTest {
     @Test
     void validationCheckPhone() {
         open("http://localhost:7777");
-        $("[name='name']").setValue("Никита Несборочный");
+        $("[data-test-id=name] input").setValue("Никита Несборочный");
         $("[data-test-id=phone] input").setValue("+797788899990000");
         $("[data-test-id=agreement]").click();
         $("[type=button]").click();
         $("[data-test-id=phone] .input__sub").shouldHave(exactText("Телефон указан неверно. Должно быть 11 цифр, например, +79012345678."));
     }
 }
+
 
 
 
